@@ -14,7 +14,7 @@ app.use((req, res, next) => {
     next();
 });
 
-MongoClient.connect("mongodb+srv://Databaseuser:Kynbataon@cluster0.kvycak7.mongodb.net/", (err, client) => {
+MongoClient.connect("mongodb+srv://safzalch9:shahbaz786786@cluster0.lh7pu9f.mongodb.net/", (err, client) => {
     if (err) {
         console.error('Error connecting to the database:', err);
     } else {
